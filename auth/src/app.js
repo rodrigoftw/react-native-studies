@@ -14,7 +14,7 @@ class App extends Component {
       storageBucket: 'auth-e29e8.appspot.com',
       messagingSenderId: '230736343917'
     });
-  }
+  };
   render() {
     return (
       <View>
@@ -22,7 +22,7 @@ class App extends Component {
         <LoginForm />
       </View>
     );
-  }
-}
+  };
+};
 
 export default App;
